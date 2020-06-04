@@ -1,0 +1,19 @@
+@import '../utility/variables';
+
+header {
+    width: 75%;
+    margin: 2.5% auto;
+    .search-box {
+        height: 2em;
+        width: 50%;
+        border: solid 1px $search-box-color;
+        margin-left: 25%;
+        border-radius: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        &:focus {
+            outline: none;
+            border: 1px solid $border-glow;
+        }
+    }
+}
