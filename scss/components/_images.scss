@@ -14,7 +14,7 @@
         img {
             width: 100%;
             border-radius: 1em;
-            transition: 0.25s cubic-bezier(.49, .25, 1, 1.5);
+            transition: 0.25s $bezier;
             border: $border-glow;
             &:hover {
                 border: 5px solid $border-glow;
